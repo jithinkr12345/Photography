@@ -1,0 +1,11 @@
+a {
+  text-decoration: none;
+}
+
+.contact-us-header {
+  background: url("../photo-contact-header.jpg");
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,138 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+  .about-div{
+    margin-top: 100px;
+  }
+  .about-div h3 {
+    text-align: center;
+  }
+  .about-div p {
+    margin-top: 20px;
+  }
+
+  .test-section {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+  }
+  
+  .test-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .test-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .test-card {
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    width: 350px;
+    margin: 20px;
+  }
+  
+  .test-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .test-author {
+    display: flex;
+    align-items: center;
+  }
+  
+  .test-author-name {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .test-author-role {
+    color: #666;
+  }
+
+  .signup {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+  }
+  
+  .test-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }

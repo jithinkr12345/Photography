@@ -1,17 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <Link to="/">
-          <h2>
-            <i>Photography</i>
-          </h2>
-        </Link>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container-fluid">
+        <NavLink to="/"><h2><i>Photography</i></h2></NavLink>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -19,27 +15,27 @@ function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse justify-content-end"
+          className="collapse navbar-collapse justify-content-end"
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <NavLink className="nav-link active" aria-current="page" to="/">
                 Home
-              </Link>
+              </NavLink>
             </li>
-            <li class="nav-item">
-              <Link className="nav-link" to="/about">
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/about">
                 About Us
-              </Link>
+              </NavLink>
             </li>
-            <li class="nav-item">
-              <Link className="nav-link" to="/contact">
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/contact">
                 Contact Us
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>

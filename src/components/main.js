@@ -9,14 +9,12 @@ import {Switch, Route, Redirect, withRouter} from 'react-router-dom';
 function Main(){
 	return(
 		<React.Fragment>
-			<Header/>
 			<Switch>
-				<Route path='/home' component={Home}/>
-				<Route path='/about' component={About}/>
-				<Route path='/contact' component={Contact}/>
-				<Redirect to='/home'/>
+				<Route exact path='/' component={Home}/>
+				<Route exact path='/about' component={About}/>
+				<Route exact path='/contact' component={Contact}/>
+				// <Redirect to='/home'/>
 			</Switch>
-			<Footer/>
 		</React.Fragment>
 		)
 }
